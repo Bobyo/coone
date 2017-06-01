@@ -1,0 +1,109 @@
+/*
+	My custom settings. These variables are copied from _settings.css
+	This file will only contain uncommented settings that are actually used in the theme.
+*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates|Lato:400,700|Noto+Serif);
+
+// We use these to define default font stacks
+$font-family-lato:'Lato', sans-serif;
+$font-family-sans-serif: $font-family-lato, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
+$font-family-logo1:'Montserrat Alternates', sans-serif;
+$font-family-body:'Noto Serif', serif;
+
+// We use these to define default font weights
+$font-weight-normal: normal !default;
+$font-weight-bold: bold !default;
+$global-radius: 3px;
+
+// Foundation color naming conventions
+$white       : #FFFFFF;
+$ghost       : #FAFAFA;
+$snow        : #F9F9F9;
+$vapor       : #F6F6F6;
+$white-smoke : #F5F5F5;
+$silver      : #EFEFEF;
+$smoke       : #EEEEEE;
+$gainsboro   : #DDDDDD;
+$iron        : #CCCCCC;
+$base        : #AAAAAA;
+$aluminum    : #999999;
+$jumbo       : #888888;
+$monsoon     : #777777;
+$steel       : #666666;
+$charcoal    : #555555;
+$tuatara     : #444444;
+$oil         : #333333;
+$jet         : #222222;
+$black       : #000000;
+$gray-small  : #d9d9d9;
+
+$paragraph-font-family: $font-family-body;
+$paragraph-font-size: rem-calc(18);
+$paragraph-line-height: 2;
+$body-bg: darken(#f5f5f5, 10% );
+
+// We use these as default colors throughout
+$primary-color: #008CBA;
+$secondary-color: #e7e7e7;
+$alert-color: #f04124;
+$success-color: #43AC6A;
+$warning-color: #f08a24;
+$info-color: #a0d3e8;
+$blue-color-custom:#007fff;
+$price-color:#eb4a4a;
+$green-feature:#4cca00;
+// We use these to control various global styles
+
+$body-font-color: $jet;
+$body-font-family: $font-family-sans-serif;
+$body-font-weight: $font-weight-normal;
+$body-font-style: normal;
+$header-font-weight: 300;
+$header-text-rendering: optimizeLegibility;
+$topbar-link-weight: bold;
+$header-font-style: capitalize;
+
+// Topbar bg
+$topbar-bg-color: transparent;
+$topbar-bg: transparent;
+$topbar-link-bg: transparent;
+$topbar-link-bg-hover: transparent;
+$topbar-dropdown-bg: transparent;
+$topbar-link-color-hover: #007fff;
+$topbar-link-color-active-hover: #007fff;
+$topbar-link-font-family: $font-family-lato;
+$topbar-link-text-transform: uppercase;
+$topbar-link-font-size: rem-calc(12);
+
+// Buttons
+$button-sml: rem-calc(14);
+$button-font-sml: rem-calc(12);
+
+// Inputs
+$input-bg-color: #fafafa;
+$input-box-shadow: inset 0 0 0 rgba(0,0,0,0.1);
+
+
+//We use these to control various hover effects.
+$button-function-factor: -20%;
+
+//We use these to control button border styles.
+$button-border-width: 0;
+$button-border-style: solid;
+$button-bg-color: #007fff;
+$button-bg-hover: scale-color($button-bg-color, $lightness: $button-function-factor);
+$button-border-color: $button-bg-hover;
+$button-radius: $global-radius;
+$button-font-family: $font-family-lato;
+
+// Hero
+$hero-banner-height:550px;
+
+// Media query breakpoints
+$small-breakpoint:  em-calc(640);
+$medium-breakpoint: em-calc(1024);
+$topbar-breakpoint: em-calc(820);
+$large-breakpoint:  em-calc(1440);
+$xlarge-breakpoint: em-calc(1920);

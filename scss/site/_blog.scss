@@ -1,0 +1,11 @@
+.blog {
+    background-color:$white;
+    .entry-content {
+        margin-top: rem-calc(10);
+    }
+    h1, h2 { font-weight: bold; font-family:$font-family-lato; font-size: rem-calc(40);
+        a {
+            color:lighten($black, 30%);
+        }
+    }
+}
