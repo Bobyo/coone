@@ -40,7 +40,7 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 560
 </div>
 
 <div class="row">
-	<div class="small-12 large-8 large-push-2 columns" role="main">
+	<div class="small-12 large-9 medium-9 columns" role="main">
 
 	<?php do_action( 'foundationpress_before_content' ); ?>
 
@@ -63,14 +63,15 @@ $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 560
 	<?php do_action( 'foundationpress_after_content' ); ?>
 
 	</div>
-    <div class="medium-2 large-2 columns meta">
-        <div class="front-half">
-            <? echo get_avatar( get_the_author_meta('user_email'), $size = '34'); ?>
-            <a class="meta__elem--oil" href="http://twitter.com/<?php the_author_meta('twitter'); ?>" target="_blank"><i class="fa icon-space fa-twitter meta__twitter"></i></a>
-            <a class="meta__elem--oil" href="http://facebook.com/<?php the_author_meta('facebook'); ?>" target="_blank"><i class="fa icon-space fa-facebook meta__fb"></i></a>
+    
+    <div class="meta sidebar">
+        <div class="front-half clearfix">
+
+            <?php get_sidebar() ?>
+
         </div>
         <?php foundationpress_entry_meta(); ?>
-        <div class="fb-page" data-href="https://www.facebook.com/creativecoon" data-width="166" data-height="250" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/creativecoon"><a href="https://www.facebook.com/creativecoon">Creativecoon</a></blockquote></div></div>
+        
     </div>
 
 </div>

@@ -1,3 +1,59 @@
-.my-class {
+.widget-title {
+    font-family: 'Lato',sans-serif;
     text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.widget-title:after {
+    content: '';
+    width: 20%;
+    display: block;
+    height: 2px;
+    background-color: #008CBA;
+    margin: 15px 0;
+}
+
+.preface {
+    font-size: 12px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mc4wp-form-basic .email-field {
+    background: white;
+    border-radius: 5px;
+}
+
+.mc4wp-form-basic .submit-button {
+    background-color: #008CBA;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    font-size: 12px;
+    height: 37px;
+    width: 50%;
+}
+
+.widget_recent_entries ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.widget_recent_entries ul li {
+    font-size: 12px;
+    line-height: 1.4;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+.sidebar .widget {
+    margin: 15px 0;
 }
