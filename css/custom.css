@@ -24,12 +24,12 @@
     justify-content: space-around;
 }
 
-.mc4wp-form-basic .email-field {
+.newsletter-container .email-field {
     background: white;
     border-radius: 5px;
 }
 
-.mc4wp-form-basic .submit-button {
+.newsletter-container .submit-button {
     background-color: #008CBA;
     color: white;
     text-transform: uppercase;
