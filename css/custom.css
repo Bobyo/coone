@@ -57,3 +57,7 @@
 .sidebar .widget {
     margin: 15px 0;
 }
+
+.home #snippet-box {
+	display: none;
+}
