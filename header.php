@@ -47,6 +47,7 @@
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
+		<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"50f818960e36416de7808882c","lid":"66472f9208"}) })</script>
     <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
