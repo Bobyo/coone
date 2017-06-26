@@ -61,3 +61,11 @@
 .home #snippet-box {
 	display: none;
 }
+
+.boxzilla {
+    padding:0;
+}
+
+.boxzilla-content .first-child {
+    margin:0;
+}
