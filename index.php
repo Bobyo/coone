@@ -56,6 +56,8 @@ get_header(); ?>
 
 	<?php do_action( 'foundationpress_after_content' ); ?>
 
+	<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"50f818960e36416de7808882c","lid":"66472f9208"}) })</script>
+
 	</div>
 
 </div>
